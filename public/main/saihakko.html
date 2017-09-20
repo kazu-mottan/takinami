@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>formsample</title>
+    <link rel="stylesheet" type="text/css" href="login2.css" media="all" />
+</head>
+
+
+<body>
+    <header>
+        <img src="takinabi.png" width=auto  height=200 alt="logo">
+    </header>
+    <main>
+        <center><img  src="saihakko.png" width=auto   height=120  alt="パスワード再発行"></center>
+        <p align=center ><strong>E-Mail</strong></p>
+        <p align=center class="required"><input type="text" name="mailaddress" maxlength="32" autocomplete="OFF" required  /></p>
+         <p align=center ><strong>新しいパスワード</strong></p>
+        <p align=center class="password"><input type="password" name="password" maxlength="32" autocomplete="OFF" required  /></p>
+        <center><p>（6～20桁の半角英数で入力して下さい）</p></center>
+        <p align=center ><strong>新しいパスワード(再入力)</strong></p>
+        <p align=center class="password"><input type="password" name="password" maxlength="32" autocomplete="OFF" required  /></p>
+        <center><p>（確認のため、もう一度入力してください）</p></center>
+        
+        <p align=center class="submit"><input type="bottom" value="確認" onClick="document.location='pwagainmail.html';" /></p>
+    </main>
+   
+</body>
+</html>
